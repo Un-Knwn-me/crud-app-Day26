@@ -160,9 +160,6 @@ const Base = ({title, description, children}) => {
                 <MenuItem onClick={()=>history.push("/profile")}>
                   <Typography textAlign="center">Profile</Typography>
                 </MenuItem>
-                <MenuItem onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">Edit-profile</Typography>
-                </MenuItem>
                 <MenuItem onClick={()=>history.push("/")}>
                   <Typography textAlign="center">Logout</Typography>
                 </MenuItem>
