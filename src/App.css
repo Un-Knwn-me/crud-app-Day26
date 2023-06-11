@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.card-container{
+  display: grid;
+  margin-left: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 1 rem;
+  margin-bottom: 7rem;
+}
+
+.authpage{
+  margin-bottom: 7rem;
+}
+
+.card{
+  margin: 20px;
+  transform-style: preserve-3d;
+  border-radius: 30px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.input-section{
+  display:flex;
+  justify-content: center;
+}
+
+.footer {
+  position:fixed;
+  margin-top: 3rem;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
